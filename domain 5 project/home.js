@@ -1,7 +1,7 @@
 console.log("js console");
 let button = document.querySelector("#show-games");
 // let gameData = document.querySelector();
-
+let grid = document.querySelector(".grid-container");
 
 var xhttp = new XMLHttpRequest();
 
@@ -10,24 +10,26 @@ xhttp.onreadystatechange = function (){
     let games = JSON.parse(xhttp.responseText);
     console.log(games[0]);
 
-games.forEach(funtion(game){
+games.forEach(function(game){
 let card = document.createElement("div");
 card.classList.add("card");
 
-let textData=
+let textGame=
 "<div class = 'game-title'>" + game.title + "</div>"+
 "<span>" +
-"Publisher: " + game.publisher
-})
+"Publisher: " + game.publisher + "<br>"+
+"<span>" +
+"Release Date: " + game.releaseDate + "<br>" +
+"Needs Research:"  +
+"</span>";
 
+card.innerHTML = textGame;
+if(game.imgSrc){
+  card.style.backgroundImage = "url(" + game.imgSrc +")"
+}
 
-
-
-
-
-
-
-    
+grid.appendChild(card);
+});
   }
 };
 
