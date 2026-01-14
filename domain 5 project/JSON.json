@@ -1,150 +1,326 @@
- [
-    {
-      "title": "Clair Obscur: Expedition 33",
-      "publisher": "Kepler Interactive",
-      "genre": "Role-playing (RPG)",
-      "score": 92,
-      "notes": "Highest-rated game of 2025 on many critics aggregates" 
-    },
-    {
-      "title": "Split Fiction",
-      "publisher": "Electronic Arts",
-      "genre": "Action-Adventure (Co-op)",
-      "score": 90,
-      "notes": "Critically acclaimed co-op adventure"
-    },
-    {
-      "title": "Donkey Kong Bananza",
-      "publisher": "Nintendo",
-      "genre": "Platformer",
-      "score": 91,
-      "notes": "High review scores and considered a major contender" 
-    },
-    {
-      "title": "Hollow Knight: Silksong",
-      "publisher": "Team Ladybug / Indie",
-      "genre": "Metroidvania / Adventure",
-      "score": 92,
-      "notes": "Strong critical reception and Steam popularity"
-    },
-    {
-      "title": "Blade Chimera",
-      "publisher": "Playism",
-      "genre": "Action / Metroidvania",
-      "score": 83,
-      "notes": "Generally favorable reviews"
-    },
-    {
-      "title": "Tokyo Xtreme Racer",
-      "publisher": "Genki",
-      "genre": "Racing",
-      "score": 88,
-      "notes": "Positive reviews for gameplay and graphics"
-    },
-    {
-      "title": "The Drifter",
-      "publisher": "Powerhoof",
-      "genre": "Point-and-Click Adventure",
-      "score": 86,
-      "notes": "Generally favorable reviewing adventure"
-    },
-    {
-      "title": "Dispatch",
-      "publisher": "AdHoc Studio",
-      "genre": "Narrative Strategy / Simulation",
-      "score": 87,
-      "notes": "Creative narrative title praised by critics"
-    },
-    {
-      "title": "Hades II",
-      "publisher": "Supergiant Games",
-      "genre": "Roguelike / Action RPG",
-      "score": 95
-    },
-    {
-      "title": "Clair Obscur: Expedition 33",
-      "publisher": "Kepler Interactive",
-      "genre": "Role-playing (RPG)",
-      "score": 92
-    },
-    {
-      "title": "Blue Prince",
-      "publisher": "Raw Fury",
-      "genre": "Puzzle Adventure",
-      "score": 92
-    },
-    {
-      "title": "Split Fiction",
-      "publisher": "Electronic Arts",
-      "genre": "Action-Adventure / Co-op",
-      "score": 91
-    },
-    {
-      "title": "Donkey Kong Bananza",
-      "publisher": "Nintendo",
-      "genre": "Platformer",
-      "score": 91
-    },
-    {
-      "title": "Hollow Knight: Silksong",
-      "publisher": "Team Cherry",
-      "genre": "Metroidvania / Adventure",
-      "score": 90
-    },
-    {
-      "title": "Death Stranding 2: On The Beach",
-      "publisher": "Sony Interactive Entertainment",
-      "genre": "Open-World Action",
-      "score": 90
-    },
-    {
-      "title": "Kingdom Come: Deliverance II",
-      "publisher": "Deep Silver",
-      "genre": "Historical RPG",
-      "score": 89
-    },
-    {
-      "title": "Monster Hunter Wilds",
-      "publisher": "Capcom",
-      "genre": "Action RPG",
-      "score": 89
-    },
-    {
-      "title": "Assassin’s Creed Shadows",
-      "publisher": "Ubisoft",
-      "genre": "Action RPG / Open World",
-      "score": 88
-    },
-    {
-      "title": "Blades of Fire",
-      "publisher": "505 Games",
-      "genre": "Action-Adventure",
-      "score": 83
-    },
-    {
-      "title": "Lost Records: Bloom & Rage",
-      "publisher": "Don't Nod",
-      "genre": "Adventure",
-      "score": 87
-    },
-    {
-      "title": "ARC Raiders",
-      "publisher": "Arc Games",
-      "genre": "Co-op Shooter",
-      "score": 88
-    },
-    {
-      "title": "Mario Kart World",
-      "publisher": "Nintendo",
-      "genre": "Racing",
-      "score": 88
-    },
-    {
-      "title": "Rematch",
-      "publisher": "EA Sports",
-      "genre": "Sports / Soccer",
-      "score": 87
-    }
-  ]
-
-  
+[
+  {
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "publisher": "Nintendo",
+    "genre": "Action-Adventure",
+    "score": 97
+  },
+  {
+    "title": "Grand Theft Auto V",
+    "publisher": "Rockstar Games",
+    "genre": "Action-Adventure",
+    "score": 97
+  },
+  {
+    "title": "Super Mario Odyssey",
+    "publisher": "Nintendo",
+    "genre": "Platformer",
+    "score": 97
+  },
+  {
+    "title": "Red Dead Redemption 2",
+    "publisher": "Rockstar Games",
+    "genre": "Action-Adventure",
+    "score": 97
+  },
+  {
+    "title": "Elden Ring",
+    "publisher": "Bandai Namco Entertainment",
+    "genre": "Action RPG",
+    "score": 96
+  },
+  {
+    "title": "The Legend of Zelda: Tears of the Kingdom",
+    "publisher": "Nintendo",
+    "genre": "Action-Adventure",
+    "score": 96
+  },
+  {
+    "title": "Portal 2",
+    "publisher": "Valve",
+    "genre": "Puzzle-Platformer",
+    "score": 95
+  },
+  {
+    "title": "Persona 5 Royal",
+    "publisher": "Atlus",
+    "genre": "JRPG",
+    "score": 95
+  },
+  {
+    "title": "The Last of Us",
+    "publisher": "Sony Computer Entertainment",
+    "genre": "Action-Adventure",
+    "score": 95
+  },
+  {
+    "title": "BioShock",
+    "publisher": "2K Games",
+    "genre": "First-Person Shooter",
+    "score": 96
+  },
+  {
+    "title": "Baldur's Gate 3",
+    "publisher": "Larian Studios",
+    "genre": "CRPG",
+    "score": 96
+  },
+  {
+    "title": "Uncharted 2: Among Thieves",
+    "publisher": "Sony Computer Entertainment",
+    "genre": "Action-Adventure",
+    "score": 96
+  },
+  {
+    "title": "Celeste",
+    "publisher": "Matt Makes Games",
+    "genre": "Platformer",
+    "score": 94
+  },
+  {
+    "title": "God of War",
+    "publisher": "Sony Interactive Entertainment",
+    "genre": "Action-Adventure",
+    "score": 94
+  },
+  {
+    "title": "God of War Ragnarök",
+    "publisher": "Sony Interactive Entertainment",
+    "genre": "Action-Adventure",
+    "score": 94
+  },
+  {
+    "title": "BioShock Infinite",
+    "publisher": "2K Games",
+    "genre": "First-Person Shooter",
+    "score": 94
+  },
+  {
+    "title": "Mass Effect 2",
+    "publisher": "Electronic Arts",
+    "genre": "Action RPG",
+    "score": 94
+  },
+  {
+    "title": "Minecraft",
+    "publisher": "Mojang Studios",
+    "genre": "Sandbox",
+    "score": 93
+  },
+  {
+    "title": "Super Smash Bros. Ultimate",
+    "publisher": "Nintendo",
+    "genre": "Fighting",
+    "score": 93
+  },
+  {
+    "title": "Persona 4 Golden",
+    "publisher": "Atlus",
+    "genre": "JRPG",
+    "score": 93
+  },
+  {
+    "title": "Hades",
+    "publisher": "Supergiant Games",
+    "genre": "Roguelike",
+    "score": 93
+  },
+  {
+    "title": "Forza Horizon 5",
+    "publisher": "Xbox Game Studios",
+    "genre": "Racing",
+    "score": 92
+  },
+  {
+    "title": "Mario Kart 8 Deluxe",
+    "publisher": "Nintendo",
+    "genre": "Racing",
+    "score": 92
+  },
+  {
+    "title": "Street Fighter 6",
+    "publisher": "Capcom",
+    "genre": "Fighting",
+    "score": 92
+  },
+  {
+    "title": "Final Fantasy XIV: Endwalker",
+    "publisher": "Square Enix",
+    "genre": "MMORPG",
+    "score": 92
+  },
+  {
+    "title": "Bloodborne",
+    "publisher": "Sony Computer Entertainment",
+    "genre": "Action RPG",
+    "score": 92
+  },
+  {
+    "title": "Overwatch",
+    "publisher": "Blizzard Entertainment",
+    "genre": "Hero Shooter",
+    "score": 91
+  },
+  {
+    "title": "Resident Evil 2 (Remake)",
+    "publisher": "Capcom",
+    "genre": "Survival Horror",
+    "score": 91
+  },
+  {
+    "title": "Disco Elysium",
+    "publisher": "ZA/UM",
+    "genre": "RPG",
+    "score": 91
+  },
+  {
+    "title": "Monster Hunter: World",
+    "publisher": "Capcom",
+    "genre": "Action RPG",
+    "score": 90
+  },
+  {
+    "title": "Animal Crossing: New Horizons",
+    "publisher": "Nintendo",
+    "genre": "Simulation",
+    "score": 90
+  },
+  {
+    "title": "Tekken 8",
+    "publisher": "Bandai Namco Entertainment",
+    "genre": "Fighting",
+    "score": 90
+  },
+  {
+    "title": "Sekiro: Shadows Die Twice",
+    "publisher": "Activision",
+    "genre": "Action-Adventure",
+    "score": 90
+  },
+  {
+    "title": "Horizon Zero Dawn",
+    "publisher": "Sony Interactive Entertainment",
+    "genre": "Action RPG",
+    "score": 89
+  },
+  {
+    "title": "Dark Souls",
+    "publisher": "Bandai Namco Entertainment",
+    "genre": "Action RPG",
+    "score": 89
+  },
+  {
+    "title": "Dark Souls III",
+    "publisher": "Bandai Namco Entertainment",
+    "genre": "Action RPG",
+    "score": 89
+  },
+  {
+    "title": "Stardew Valley",
+    "publisher": "ConcernedApe",
+    "genre": "Simulation RPG",
+    "score": 89
+  },
+  {
+    "title": "Dead Cells",
+    "publisher": "Motion Twin",
+    "genre": "Roguelike",
+    "score": 89
+  },
+  {
+    "title": "Slay the Spire",
+    "publisher": "MegaCrit",
+    "genre": "Deck-Building Roguelike",
+    "score": 89
+  },
+  {
+    "title": "Fire Emblem: Three Houses",
+    "publisher": "Nintendo",
+    "genre": "Strategy RPG",
+    "score": 89
+  },
+  {
+    "title": "Monster Hunter Rise",
+    "publisher": "Capcom",
+    "genre": "Action RPG",
+    "score": 88
+  },
+  {
+    "title": "DOOM Eternal",
+    "publisher": "Bethesda Softworks",
+    "genre": "First-Person Shooter",
+    "score": 88
+  },
+  {
+    "title": "NieR: Automata",
+    "publisher": "Square Enix",
+    "genre": "Action RPG",
+    "score": 88
+  },
+  {
+    "title": "It Takes Two",
+    "publisher": "Electronic Arts",
+    "genre": "Co-op Platformer",
+    "score": 88
+  },
+  {
+    "title": "Final Fantasy VII Remake",
+    "publisher": "Square Enix",
+    "genre": "Action RPG",
+    "score": 87
+  },
+  {
+    "title": "Marvel's Spider-Man",
+    "publisher": "Sony Interactive Entertainment",
+    "genre": "Action-Adventure",
+    "score": 87
+  },
+  {
+    "title": "Diablo IV",
+    "publisher": "Blizzard Entertainment",
+    "genre": "Action RPG",
+    "score": 86
+  },
+  {
+    "title": "DOOM (2016)",
+    "publisher": "Bethesda Softworks",
+    "genre": "First-Person Shooter",
+    "score": 85
+  },
+  {
+    "title": "Control",
+    "publisher": "505 Games",
+    "genre": "Action-Adventure",
+    "score": 85
+  },
+  {
+    "title": "Spider-Man: Miles Morales",
+    "publisher": "Sony Interactive Entertainment",
+    "genre": "Action-Adventure",
+    "score": 85
+  },
+  {
+    "title": "Resident Evil Village",
+    "publisher": "Capcom",
+    "genre": "Survival Horror",
+    "score": 84
+  },
+  {
+    "title": "Starfield",
+    "publisher": "Bethesda Softworks",
+    "genre": "Action RPG",
+    "score": 83
+  },
+  {
+    "title": "Death Stranding",
+    "publisher": "Sony Interactive Entertainment",
+    "genre": "Action",
+    "score": 82
+  },
+  {
+    "title": "Overwatch 2",
+    "publisher": "Blizzard Entertainment",
+    "genre": "Hero Shooter",
+    "score": 79
+  }
+]
