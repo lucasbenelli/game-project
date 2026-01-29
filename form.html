@@ -1,17 +1,30 @@
-<!DOCTYPE html>
-<link rel="stylesheet" href="home.css">
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Best Games in 2025</title>
+</head>
+
+<body>
+
+  <h1>Best Games Released in 2025</h1>
+
   <nav class="navbar">
-    <a href="home.html">Home</a>
+    <a href="home.html">Home</a> 
     <a href="form.html">Add Another Game to the List!</a>
   </nav>
-</head>
-<body>
+
 <form action="./form submition.html">
-  <label for="fname">Game Name:</label><br>
-  <input type="text" id="gname" name="gname"><br>
-  <br><label for="lname">Publisher:</label><br>
+  <br><label for="tname">Title:</label><br>
+  <input type="text" id="tname" name="tname"><br>
+  <br><label for="pname">Publisher:</label><br>
   <input type="text" id="pname" name="pname"><br><br>
+  <label for="rdate">Release Date:</label><br>
+  <input type="text" id="rdate" name="rdate"><br>
+  <label for="fname">Submit a Photo of the Game</label><br>
+  <br><input type="file" id="photo" name="photo"><br>
   <input type="submit" value="Submit">
 </form> 
+<script src="./form.js"></script>
 </body>
