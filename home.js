@@ -1,59 +1,93 @@
-console.log("js console");
-let button = document.querySelector("#show-games");
-// let gameData = document.querySelector();
-let grid = document.querySelector(".grid-container");
+function createMovieCard(movie) {
+    let card = document.createElement("div");
+    card.classList.add("card");
 
-var xhttp = new XMLHttpRequest();
+    let castList = movie.cast.join(', ') 
+    let genresList = movie.genres.join(', ')
 
-xhttp.onreadystatechange = function (){
-  if (xhttp.readyState === 4 && xhttp.status === 200) {
-    let games = JSON.parse(xhttp.responseText);
-    console.log(games[0]);
+    let textData =
+        "<div class='movie-title'>" + movie.title + "</div>" +
+        "<div class='movie-year'>Released: " + movie.year + "</div>";
+    
+    if (movie.cast) {
+        textData += "<div class='movie-cast'>Cast: " + castList + "</div>";
+    }
+    textData += "<div class='movie-genres'>Genres: " + genresList + "</div>";
 
-games.forEach(function(game){
-let card = document.createElement("div");
-card.classList.add("card");
+    card.innerHTML = textData;
 
-let textGame=
-"<div class = 'game-title'>" + game.title + "</div>"+
-"<span>" +
-"Publisher: " + game.publisher + "<br>"+
-"<span>" +
-"Release Date: " + game.releaseDate + "<br>" +
-"Needs Research:"  +
-"</span>";
+    if (movie.thumbnail) {
+        card.style.backgroundImage = "url(" + movie.thumbnail + ")";
+    }
 
-card.innerHTML = textGame;
-if(game.imgSrc){
-  card.style.backgroundImage = "url(" + game.imgSrc +")"
+    return card;
 }
 
-grid.appendChild(card);
+function loadJSONMovies() {
+    const req = new XMLHttpRequest();
+
+    req.onreadystatechange = function() {
+        if (req.readyState === 4 && req.status === 200) {
+            let movies = JSON.parse(req.responseText);
+            const gridContainer = document.getElementById('grid-container');
+
+                movies.forEach(function(movie) {
+                    gridContainer.appendChild(createMovieCard(movie));
+                });
+        }
+    }
+
+    req.open("GET", "./list.json", true);
+    req.send();
+}
+
+function loadCustomMovies() {
+    let customMovie = sessionStorage.getItem('customMovies');
+    const customMovies = JSON.parse(customMovie);
+    const gridContainer = document.getElementById('grid-container');
+
+    if (gridContainer && customMovies.length > 0) {
+        customMovies.forEach(function(movie) {
+            gridContainer.appendChild(createMovieCard(movie));
+        });
+    }
+}
+
+
+const form = document.getElementById('addMovieForm');
+if (form) {
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const title = document.getElementById('title').value;
+        const year = parseInt(document.getElementById('year').value);
+        const genre = document.getElementById('genre').value;
+
+
+        const newMovie = {
+            title: title,
+            year: year,
+            publisher:publisher,
+            genres: [genre],
+            cast: []
+        };
+
+
+        let customMovie = sessionStorage.getItem('customMovies');
+        let customMovies = JSON.parse(customMovie);
+        customMovies.push(newMovie);
+        sessionStorage.setItem('customMovies', JSON.stringify(customMovies));
+        const result = document.querySelector('.result');
+        result.style.display = 'block';
+
+
+        setTimeout(()=>{
+            window.location.href = 'index.html';
+        }, 1000);
+    });
+}
+
+window.addEventListener('DOMContentLoaded', function() {
+    loadJSONMovies();
+    loadCustomMovies();
 });
-  }
-};
-
-xhttp.open("GET", "JSON.json", true);
-xhttp.send();
-
-
-// button.addEventListener('click',function(){
-//     const container = document.getElementById("games");
-//       container.innerHTML = "";
-
-//       gamesData.forEach(game => {
-//         const card = document.createElement("div");
-//         card.className = "game-card";
-
-//         card.innerHTML = `
-//           <h3>${game.title}</h3>
-//           <p><span class="label">Publisher:</span> ${game.publisher}</p>
-//           <p><span class="label">Genre:</span> ${game.genre}</p>
-//           <p><span class="label">Score:</span> ${game.score}</p>
-//         `;
-
-//         container.appendChild(card);
-//       });
-    
-// });
-      

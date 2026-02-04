@@ -1,70 +1,63 @@
 body {
-      font-family: Arial, sans-serif;
-      background-color: #5a698b;
-      color: #e5e7eb;
-      /* padding: 20px; */
-      text-align: center;
-      margin:0;
-    }
-
-    h1 {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    title{
-      text-align: center;
-    }
-.card{
-  display: block;
-  grid-template-columns: auto auto auto;
-  background-color: rgb(88, 102, 116);
-  padding: 5px;
-  text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
-.card div {
-  background-color: hsl(240, 29%, 19%);
-  border: 1px solid black;
-  padding: 5px;
-  font-size: 25px;
-  width:400px;
-  text-align: center;
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
-    .navbar {
-      list-style-type: none;
-      display: flex;
-      padding: 0%;
-      justify-content:space-evenly;
-      align-items: center;
-      padding: 12px 20px;
-      background-color: #95afe6;
-    }
-   
 
-    .games-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
+ul li {
+    float: left;
+}
 
-    .grid-container{
-      display:grid;
-      grid-template-columns: auto auto auto;
-    }
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
-    .game-card {
-      background-color: #92abd3;
-      padding: 15px;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
-    }
+ul li a:hover {
+    background-color: #111;
+}
 
-    .game-card h3 {
-      margin-top: 0;
-      color: #38bdf8;
-    }
 
-    .label {
-      font-weight: bold;
-      color: #d8e0f8;
-    }
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    border-radius: 8px;
+    padding: 15px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.movie-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.movie-year,
+.movie-cast,
+.movie-genres {
+    font-size: 0.9em;
+}

@@ -1,30 +1,42 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="home.css">
-    <title>Best Games in 2025</title>
+    <link rel="stylesheet" href="addMovie.css">
+    <title>Movie Watchlist</title>
 </head>
-
+<header>
+        <!--nav bar-->
+        <nav>
+          <ul>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./form.html">Add </a></li>
+          </ul>
+        </nav>
+    </header>
 <body>
+    <fieldset>
+      <form action="./form submition.html"></form>
+        <legend>Add Movie</legend>
+        <form id="addMovieForm">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required><br><br>
 
-  <h1>Best Games Released in 2025</h1>
+            <label for="year">Year:</label>
+            <input type="number" id="year" name="year" required><br><br>
 
-  <nav class="navbar">
-    <a href="home.html">Home</a> 
-    <a href="form.html">Add Another Game to the List!</a>
-  </nav>
+            <label for="genre">Genre:</label>
+            <input type="text" id="genre" name="genre" required><br><br>
 
-<form action="./form submition.html">
-  <br><label for="tname">Title:</label><br>
-  <input type="text" id="tname" name="tname"><br>
-  <br><label for="pname">Publisher:</label><br>
-  <input type="text" id="pname" name="pname"><br><br>
-  <label for="rdate">Release Date:</label><br>
-  <input type="text" id="rdate" name="rdate"><br>
-  <label for="fname">Submit a Photo of the Game</label><br>
-  <br><input type="file" id="photo" name="photo"><br>
-  <input type="submit" value="Submit">
-</form> 
-<script src="./form.js"></script>
+            <input type="submit" value="Add Movie">
+        </form>
+    </fieldset>
+
+    <h1 class="result">form submitted!</h1>
+
+    <script src="script.js"></script>
 </body>
+</html>
+
+  
