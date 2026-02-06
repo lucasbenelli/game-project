@@ -373,6 +373,51 @@
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1c/Birds_of_Prey_%282020_film%29_poster.jpg",
     "thumbnail_width": 220,
     "thumbnail_height": 326
+  },
+  {
+    "title": "Space Jam: A New Legacy",
+    "year": 2021,
+    "cast": [
+      "LeBron James",
+      "Don Cheadle",
+      "Khris Davis",
+      "Sonequa Martin-Green",
+      "Cedric Joe",
+      "Jeff Bergman",
+      "Eric Bauza",
+      "Zendaya"
+    ],
+    "genres": [
+      "Live Action",
+      "Animated",
+      "Comedy",
+      "Sports"
+    ],
+    "href": "Space_Jam:_A_New_Legacy",
+    "extract": "Space Jam: A New Legacy is a 2021 American live-action/animated sports comedy film co-produced by Warner Animation Group, Proximity Media, and The SpringHill Company, and distributed by Warner Bros. Pictures. The film was directed by Malcolm D. Lee from a screenplay by Juel Taylor, Tony Rettenmaier, Keenan Coogler, Terence Nance, Jesse Gordon, and Celeste Ballard, and a story by Taylor, Rettenmaier, Coogler, and Nance. It serves as a standalone sequel to Space Jam (1996) and is the first theatrically released film to feature the Looney Tunes characters since Looney Tunes: Back in Action (2003). The film stars basketball player LeBron James as a fictional version of himself; Don Cheadle, Khris Davis, Sonequa Martin-Green and Cedric Joe star in live-action roles, while Jeff Bergman, Eric Bauza and Zendaya headline the Looney Tunes voice cast. The film follows James enlisting the Looney Tunes' aid to win a basketball game in a Warner Bros.-themed virtual multiverse against a rogue artificial intelligence's avatars after James's son is abducted by the AI.",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b7/SpaceJamANewLegacyOfficialPoster.jpg",
+    "thumbnail_width": 259,
+    "thumbnail_height": 384
+  },
+  {
+    "title": "Escape Room: Tournament of Champions",
+    "year": 2021,
+    "cast": [
+      "Taylor Russell",
+      "Logan Miller",
+      "Indya Moore",
+      "Holland Roden",
+      "Thomas Cocquerel",
+      "Carlito Olivero",
+      "Isabelle Fuhrman"
+    ],
+    "genres": [
+      "Horror"
+    ],
+    "href": "Escape_Room:_Tournament_of_Champions",
+    "extract": "Escape Room: Tournament of Champions is a 2021 American survival horror film directed by Adam Robitel and written by Will Honley, Maria Melnik, Daniel Tuch, and Oren Uziel. A sequel to 2019's Escape Room, it stars Taylor Russell, Logan Miller, and Deborah Ann Woll reprising their roles from the first film, alongside new cast members Indya Moore, Holland Roden, Thomas Cocquerel, and Carlito Olivero, and follows a group of six people trying to survive a new series of more deadly escape rooms.",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/36/Escape_Room_Tournament_of_Champions_Movie_Poster.jpg",
+    "thumbnail_width": 220,
+    "thumbnail_height": 326
   }
-  
 ]
